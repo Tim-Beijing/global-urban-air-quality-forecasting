@@ -1,0 +1,17 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate aq_by_weather
+name: aq_by_weather
+dependencies:
+  - python=3.9
+  - pip
+  - ipykernel
+  - pip:
+    - boto3
+    - pandas
+    - numpy
+    - requests
+    - ipywidgets
+    - scikit-learn
+    - autogluon
+    - matplotlib
